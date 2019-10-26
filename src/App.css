@@ -6,17 +6,17 @@
   height: 40vmin;
 }
 
-.App-header {
+.page-container {
   background-color: #b8c1d1;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
   color: rgb(10, 1, 1);
+  padding-left: 200px;
+  padding-right: 200px;
 }
 
 .App-link {
   color: #09d3ac;
 }
+
+

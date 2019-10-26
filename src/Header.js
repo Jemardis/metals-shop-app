@@ -12,13 +12,19 @@ class Header extends Component {
   render() {
     return (
       <div className="header-container">
-        <img src={metalslogo} />
-        <div>Metals Trading</div>
-        <button>Log in</button>
-        <div>
-          <img src={shoppingcart} />
-          <button>View Shopping Cart</button>
-        </div>
+        <img src={metalslogo} alt="metals-logo" />
+          <div className="header-description">Metals Trading</div>
+          <button className="header-buttons">Log in</button>
+          <div className="shopping-cart-container">
+            <img
+              className="shopping-card-logo"
+              src={shoppingcart}
+              alt="shopping-cart-logo"
+            />
+            <button className="header-buttons shopping-cart-button">
+              View Shopping Cart
+            </button>
+          </div>
       </div>
     );
   }

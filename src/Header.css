@@ -1,4 +1,27 @@
 .header-container {
   display: flex;
   justify-content: space-between;
+  height: 100px;
+  padding-top: 20px;
+}
+
+.shopping-cart-container {
+  margin: auto 0;
+}
+
+.shopping-card-logo {
+  width: 50px;
+}
+
+.shopping-cart-button {
+  display: block;
+}
+
+.header-buttons {
+  height: 20px;
+  margin: auto 0;
+}
+
+.header-description {
+  margin: auto 0;
 }
