@@ -6,12 +6,33 @@ import platinumpic from "./sidebar-photos/platinumpic.png";
 import "./Sidebar.css";
 
 function Sidebar() {
+  const pictures = [
+    { imgSrc: goldpic, alt: "gold-pic" },
+    { imgSrc: silverpic, alt: "silver-pic" },
+    { imgSrc: palladiumpic, alt: "palladium-pic" },
+    { imgSrc: platinumpic, alt: "platinum-pic" }
+  ];
+
   return (
-    <div classname="sidebar-container">
-      <img src={goldpic} alt="gold-pic" />
-      <img src={silverpic} alt="silver-pic" />
-      <img src={platinumpic} alt="platinum-pic" />
-      <img src={palladiumpic} alt="palladium-pic" />
+    <div className="sidebar-container">
+      {/* old code, before refactor
+      <img className="sidebar-pic" src={goldpic} alt="gold-pic" />
+      <img className="sidebar-pic" src={silverpic} alt="silver-pic" />
+      <img className="sidebar-pic" src={platinumpic} alt="platinum-pic" />
+      <img className="sidebar-pic" src={palladiumpic} alt="palladium-pic" /> */}
+
+      {/* new code, refactored below */}
+
+      {pictures.map((pictureObj, index) => {
+        return (
+          <img
+            key={index}
+            className="sidebar-pic"
+            src={pictureObj.imgSrc}
+            alt={pictureObj.alt}
+          />
+        );
+      })}
     </div>
   );
 }

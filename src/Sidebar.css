@@ -1,10 +1,10 @@
 .sidebar-container {
-  margin-top: 20px;
-  display:flex;
+  margin-top: 50px;
+  display: flex;
   flex-direction: column;
 }
 
-img {
+.sidebar-pic {
   width: 300px;
   height: 120px;
 }
