@@ -26,8 +26,9 @@ class Header extends Component {
   render() {
     return (
       <div className="header-container">
-        <img src={metalslogo} alt="metals-logo" />
+        <img className="logo" src={metalslogo} alt="metals-logo" />
         <div className="header-description">Metals Trading Inc</div>
+
         <button
           className="header-buttons log-in-button"
           onClick={this.handleClick}
