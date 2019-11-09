@@ -27,7 +27,7 @@ class Header extends Component {
     return (
       <div className="header-container">
         <img src={metalslogo} alt="metals-logo" />
-        <div className="header-description">Metals Trading</div>
+        <div className="header-description">Metals Trading Inc</div>
         <button
           className="header-buttons log-in-button"
           onClick={this.handleClick}

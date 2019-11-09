@@ -1,8 +1,8 @@
 import React from "react";
-import goldpic from "./sidebar-photos/goldpic.png";
-import silverpic from "./sidebar-photos/silverpic.png";
-import palladiumpic from "./sidebar-photos/palladiumpic.png";
-import platinumpic from "./sidebar-photos/platinumpic.png";
+import goldpic from "./sidebar-photos/goldpic.jpg";
+import silverpic from "./sidebar-photos/silverpic.jpg";
+import palladiumpic from "./sidebar-photos/palladiumpic.jpg";
+import platinumpic from "./sidebar-photos/platinumpic.jpg";
 import "./Sidebar.css";
 
 function Sidebar() {
