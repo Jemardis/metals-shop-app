@@ -1,0 +1,28 @@
+.dashboard-container {
+    margin-top: 50px;
+    margin-left: 25px;
+  }
+  
+  .dashboard-row {
+    padding: 25px;
+    display: inline-flex;
+    border: 1px solid black;
+    width: 80%;
+  }
+  
+  .row-name {
+    display: inline;
+    margin-right: 80px;
+  }
+  
+  .header-value {
+    display: inline-flex;
+    flex-direction: column;
+    margin-right: 80px;
+    margin-bottom: 20px;
+  }
+  
+  .header-text {
+    margin-bottom: 15px;
+  }
+  

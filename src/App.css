@@ -15,8 +15,10 @@
   padding-right: 200px;
 }
 
+.sidebar-dashboard-container {
+  display: flex;
+ }
+
 .App-link {
   color: #09d3ac;
 }
-
-

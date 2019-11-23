@@ -9,8 +9,10 @@ function App() {
     <div className="App">
       <div className="page-container">
         <Header />
-        <Sidebar />
-        <Dashboard />
+        <div className="sidebar-dashboard-container">
+          <Sidebar />
+          <Dashboard />
+        </div>
       </div>
     </div>
   );
